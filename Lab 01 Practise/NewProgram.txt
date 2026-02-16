@@ -1,0 +1,23 @@
+import java.lang.*;
+public class NewProgram{
+public int summ(int age){
+int sum = 0;
+sum = sum + age;
+return sum;
+}
+public static void main(String args[]){
+int age = 20;
+String name = "Ahmad";
+double salary = 200.0;
+int verysum = summ(age);
+System.out.println("verysum");
+long area = 28;
+long perimeter = 234;
+long total = area + perimeter;
+System.out.println(total);
+for (int i = 5; i > 0; i--){
+System.out.println("Hello");}
+
+}
+}
+
